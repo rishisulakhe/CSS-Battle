@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.marvel-logo {
+    color: #e23636; 
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    width: 200px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; 
+    font-size: 14px;
+}
+
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 20px;
+        gap: 20px; /* Adds space between cards */
+    }
+
+
+.character-card {
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    width: calc(25% - 20px); /* Adjust based on desired card width */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-card h2 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.character-card p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.character-card img {
+    width: 100%; /* Make the image fill the card width */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.character-card:nth-child(1) {
+    background: linear-gradient(135deg, #4a90e2, #9013fe); 
+}
+
+.character-card:nth-child(2) {
+    background: linear-gradient(135deg, #f5a623, #d0021b); 
+}
+
+.character-card:nth-child(3) {
+    background: linear-gradient(135deg, #bd10e0, #4a90e2); 
+}
+
+.character-card:nth-child(4) {
+    background: linear-gradient(135deg, #d0021b, #f8e71c); 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #f7f7f7;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
