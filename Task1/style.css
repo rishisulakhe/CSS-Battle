@@ -46,7 +46,7 @@ nav a {
         display: flex;
         justify-content: space-between;
         padding: 40px 20px;
-        gap: 20px; /* Adds space between cards */
+        gap: 20px; 
     }
 
 
@@ -54,7 +54,7 @@ nav a {
     border-radius: 10px;
     text-align: center;
     padding: 15px;
-    width: calc(25% - 20px); /* Adjust based on desired card width */
+    width: calc(25% - 20px); 
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -73,7 +73,7 @@ nav a {
 }
 
 .character-card img {
-    width: 100%; /* Make the image fill the card width */
+    width: 100%; 
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
